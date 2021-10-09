@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Stock-aoi</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Stock-Api💸📈</h1>
+    <label id="stockname">Name of the stock:<input id="txt-input" list="nameOfStock" type="text" autocomplete="off"/> </label>
+    
+    <datalist id="nameOfStock">
+      
+    </datalist><br>
+    <label>Purchase price: <input type="number" class="input-user" /></label><br>
+    <label>Stock quantity: <input type="number" class="input-user" /></label><br>
+    <label>Current price: <input type="number"  class="input-user" readonly/></label><br>
+
+    <button id="btn-submit">Check</button>
+    <div id="output"></div>
+
+    </div> 
+    <script src="script.js"></script>
+  </body>
+</html>
